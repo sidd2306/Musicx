@@ -57,7 +57,7 @@ class _MyHomePageState extends State<MyHomePage> {
         return titles[12];
     }
   }
-
+  
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -90,26 +90,6 @@ class _MyHomePageState extends State<MyHomePage> {
                         }),
                   ],
                 )),
-              ReusableCard(
-                  cardW: IconButton(
-                      icon: Icon(Icons.play_circle_filled),
-                      color: Colors.black,
-                      onPressed: () async {})),
-              ReusableCard(
-                  cardW: IconButton(
-                      icon: Icon(Icons.play_circle_filled),
-                      color: Colors.black,
-                      onPressed: () async {})),
-              ReusableCard(
-                  cardW: IconButton(
-                      icon: Icon(Icons.play_circle_filled),
-                      color: Colors.black,
-                      onPressed: () async {})),
-              ReusableCard(
-                  cardW: IconButton(
-                      icon: Icon(Icons.play_circle_filled),
-                      color: Colors.black,
-                      onPressed: () async {})),
             ],
           ),
         ],
