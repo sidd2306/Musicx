@@ -21,6 +21,9 @@ class _SongPageState extends State<SongPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(leading: IconButton(icon: Icon(Icons.arrow_back), onPressed:(){
+        Navigator.pop(context);
+      })),
       body: Column(
         children: <Widget>[
           // Text(widget.title,style: TextStyle(fontSize: 20),),
